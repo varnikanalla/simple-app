@@ -14,5 +14,6 @@ spec:
     spec:
       containers:
         - name: py
-          image: py-app:latest
+          image: py-app
           command: ["python", "app.py"]
+
